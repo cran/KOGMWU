@@ -1,2 +1,6 @@
 exportPattern("^[[:alpha:]]+")
 import(pheatmap)
+  importFrom("graphics", "abline", "mtext", "par", "plot", "strwidth",
+             "text")
+  importFrom("stats", "cor", "cor.test", "fisher.test", "lm", "p.adjust",
+             "wilcox.test")

@@ -1,10 +1,10 @@
 \name{corrPlot}
 \alias{corrPlot}
 \title{
-Plots a pairwise correlation with loess smoothing
+Plots a pairwise correlation with linear regression line
 }
 \description{
-Plots Pearson's correlation between two columns in a dataframe, identified by column names. Also plots loess smoothing line and lists the correlation coefficient (r) and cor.test p-value.
+Plots Pearson's correlation between two columns in a dataframe, identified by column names. Also plots linear regression line and lists the correlation coefficient (r) and cor.test p-value.
 }
 \usage{
 corrPlot(x, y, data, ...)

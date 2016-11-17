@@ -12,8 +12,8 @@ Rank-based tests for enrichment of KOG (euKaryotic Orthologous Groups) classes w
 \tabular{ll}{
 Package: \tab KOGMWU\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2015-03-02\cr
+Version: \tab 1.1\cr
+Date: \tab 2016-11-13\cr
 License: \tab GPL-3\cr
 }
 The most important function is kog.mwu, which performs a series of Mann-Whitney U tests when given two data tables: one, containing measures of interest for each gene (for example, log fold-change), and another, listing the association of each gene with a KOG class. The KOG class annotations for a collection of genes can be obtained using Weizhng Li's lab KOG BLAST server.
