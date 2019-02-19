@@ -12,11 +12,11 @@ Rank-based tests for enrichment of KOG (euKaryotic Orthologous Groups) classes w
 \tabular{ll}{
 Package: \tab KOGMWU\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2016-11-13\cr
+Version: \tab 1.2\cr
+Date: \tab 2019-02-19\cr
 License: \tab GPL-3\cr
 }
-The most important function is kog.mwu, which performs a series of Mann-Whitney U tests when given two data tables: one, containing measures of interest for each gene (for example, log fold-change), and another, listing the association of each gene with a KOG class. The KOG class annotations for a collection of genes can be obtained using Weizhng Li's lab KOG BLAST server.
+The most important function is kog.mwu, which performs a series of Mann-Whitney U tests when given two data tables: one, containing measures of interest for each gene (for example, log fold-change), and another, listing the association of each gene with a KOG class. The KOG class annotations for a collection of genes can be obtained using eggNOG-mapper: http://eggnogdb.embl.de/#/app/emapper. To extract KOG annotations understood by this package out of the eggNOG-mapper output, see here: https://github.com/z0on/emapper_to_GOMWU_KOGMWU  
 }
 \author{
 Mikhail V. Matz
@@ -24,8 +24,9 @@ Mikhail V. Matz
 Maintainer: Mikhail V. Matz <matz@utexas.edu>
 }
 \references{
-Dixon GB, Davies SW, Aglyamova GA, Meyer E, Bay LK and Matz MV (2015) Genomic determinants of coral heat tolerance across latitudes. 
-Weizhong Li's KOG BLAST server: http://weizhong-lab.ucsd.edu/metagenomic-analysis/server/kog/ 
+Dixon, G. B., Davies, S. W., Aglyamova, G. V., Meyer, E., Bay, L. K. and Matz, M. V. Genomic determinants of coral heat tolerance across latitudes. Science 2015, 348:1460-1462. 
+eggNOG-mapper to obtain KOG annotations: http://eggnogdb.embl.de/#/app/emapper
+To extract KOG annotations from eggNOG-mapper output: https://github.com/z0on/emapper_to_GOMWU_KOGMWU
 }
 \keyword{ package }
 \examples{

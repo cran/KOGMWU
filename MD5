@@ -1,4 +1,4 @@
-5207e40bd005e367c29a1ad25c76506f *DESCRIPTION
+7066aef683b893583b5b7664b6b687fb *DESCRIPTION
 93b40c9a5819448982e6f5be46ef0bfc *NAMESPACE
 2b37e41ca9de5eb9e4dfa379caf82054 *R/corrPlot.R
 c486bf3a6c4be6d59217ac367be5280f *R/kog.ft.R
@@ -7,12 +7,12 @@ c486bf3a6c4be6d59217ac367be5280f *R/kog.ft.R
 7f4c4d5edabedf5d17b8c8a55c226f40 *R/makeDeltaRanksTable.R
 5bba9f6f5c31ce603a387cb3adae5692 *R/panel.cor.R
 a8645433e34903628919f223a425d3b0 *R/panel.cor.pval.R
-48ad7e85d4aae38660592fbd1131adab *data/adults.3dHeat.logFoldChange.rda
+d45b322c048af38efbbfd13124fab9bf *data/adults.3dHeat.logFoldChange.rda
 b5ab7934999f37e33f39e0463e970c10 *data/datalist
-854420a5750a1a41a83f14acc7214165 *data/gene2kog.rda
-5b1393c9d1af2a9bb38ec2813031bfca *data/larvae.longTerm.rda
-cc3f3b2106549837e5554d495dc0bd4c *data/larvae.shortTerm.rda
-d98557a78ad97a0f178c5a1bc80b8db2 *man/KOGMWU-package.Rd
+fc6b7f343702668c0e281765a88e7129 *data/gene2kog.rda
+d5b912ad080d2e2040e64f650d86f603 *data/larvae.longTerm.rda
+33429a4bb8c657e3ee61461f1a6ed36d *data/larvae.shortTerm.rda
+1a998fd4d2d9216fe3c03d4c202db188 *man/KOGMWU-package.Rd
 c96710771544319ef1c37540e7602236 *man/adults.3dHeat.logFoldChange.Rd
 cf5704fe6932710d35549cc0dfcd74f6 *man/corrPlot.Rd
 b46a41e895a80819fe0c1630ab9ea2aa *man/gene2kog.Rd
